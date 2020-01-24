@@ -227,3 +227,6 @@ body {
   color: #34bf6e;
   text-decoration: line-through;
 }
+.centered {
+  text-align: center;
+}
