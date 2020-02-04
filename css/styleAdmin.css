@@ -1,0 +1,67 @@
+.task, header {
+  display: flex;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.hide {
+  display: none;
+}
+
+.task {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #AAA;
+}
+
+.task:hover {
+  background: #DDD;
+}
+
+.task.task--done {
+  background: #AAF;
+}
+
+.task button {
+  background: #000;
+  color: #fff;
+  border: none;
+  margin-left: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.task span {
+  margin-right: 10px;
+}
+
+.task_text {
+  word-break: break-all;
+  flex-grow: 1;
+}
+
+.task_date {
+  font-weight: bold;
+  text-align: center;
+}
+
+#taskAdd {
+  background: #00A;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+#taskText {
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid #00A;
+  flex-grow: 1;
+}
